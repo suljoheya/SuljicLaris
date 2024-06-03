@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+section p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cv {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cv h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cv h2 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.cv p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.cv ul {
+    margin-bottom: 10px;
+}
+
+.cv ul li {
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.cv a {
+    color: #007bff;
+}
+
+.cv a:hover {
+    text-decoration: underline;
+}
+
+.nav-links {
+    background-color:brown;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links ul li a:hover {
+    background-color: #555;
+}
